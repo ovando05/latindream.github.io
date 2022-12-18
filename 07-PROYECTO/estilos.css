@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+body{
+    background-color: #FF0080;
+}
+header{
+    background-color: #FF0080;
+}
+h3{
+    color: white;
+    font-family:fasthand ;
+    text-align: center;
+    
+    font-size: 3em;
+    font-weight: 100;
+}
+.color{
+    background-color: #a82566;
+    text-align: center;
+}
+.star{
+color: white;
+
+
+}
+h4{
+    text-align: center;
+    text-shadow: -3px 0px 17px rgba(255,255,255,1);
+}
+.color2{
+    background-color: #FF3399;
+}
+
+
+.danza{
+    font-family: 'Bree Serif', serif;
+    color: whitesmoke;
+    font-size: 2em;
+}
+.clasico{
+    font-family: 'Bree Serif', serif;
+    color: whitesmoke;
+    font-size: 2em;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+
+
+}
+.hor{
+    border-bottom:solid white 1em;
+}
+hr{
+    color: white;
+
+}
+footer{
+    text-align: center;
+}
+
+.ini{
+    color: white;
+    font-size: 2em;
+    font-family: 'Bree Serif', serif;
+
+}
+.nav-link{
+    color: white;
+}
+.col-flecha{
+text-align: left;
+margin-left: 1%
+}

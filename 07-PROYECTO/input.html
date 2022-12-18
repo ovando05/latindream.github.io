@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formularios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Formularios</h1>
+
+
+    <form>
+        <!--breakpoints-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-6 bg-warning">
+                    <label for="nombre" class="form-label">NA</label>
+                    <input type="text" name="nombre" id="nombre" class="form-control">
+                </div>
+                <div class="col-lg-4 col-md-6 bg-info">
+                    <label for="edad" class="form-label">edad</label>
+                    <input type="number" name="edad" id="edad" min="0" max="110" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 bg-primary">
+                    <label for="dni" class="form-label">DNI</label>
+                    <input type="number" name="dni" id="dni" min="0" max="60000000" class="form-control">
+                </div>
+                <div class="col-lg-8 col-md-6 bg-secondary">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" name="email" id="email" class="form-control">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 p-0">
+
+                    <button type="submit" class="btn btn-primary">ENVIAR</button>
+                </div>
+            </div>
+
+        </div>
+
+    </form>
+
+
+
+    <form action="">
+
+        <!--INPUT- ENTRADA DE DATOS-->
+        <label for="apellido"> Ingrese un apellido</label>
+        <input type="text" name="apellido" id="apellido">
+        <!--date-->
+        <label for="nacimiento">Fecha de Nacimiento</label>
+        <input type="date" name="nacimiento" id="nacimiento">
+        <!--number-->
+        <label for="edad">edad</label>
+        <input type="number" name="edad" id="edad" min="0" max="110">
+        <!--email-->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" value="ejemplo@ejemplo.com">
+        <!--claves/contraseas-->
+        <label for="clave">Clave</label>
+        <input type="password" name="Clave" id="Clave">
+        <!--opciones con radio-->
+        <label for="pepsi">Pepsi</label>
+        <input type="radio" name="bebidas" id="pepsi" value="pepsi">
+        <label for="manaos">Manaos</label>
+        <input type="radio" name="bebidas" id="manaos" value="manaos">
+        <!--color-->
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color">
+        <!--checkbox-->
+        <label for="milanesa">milanesa</label>
+        <input type="checkbox" name="milanesa" id="milanesa">
+        <label for="pizza">Pizza</label>
+        <input type="checkbox" name="pizza" id="pizza">
+        <!--selectores-dropdown-->
+        <label for="equipos">Equipos</label>
+        <select name="equipos" id="equipos">
+            <option value="riber">riber</option>
+            <option value="boca">boca</option>
+            <option value="racing">racing</option>
+        </select>
+        <!--textarea-->
+        <label for="consulta">Consulta</label>
+        <textarea name="consulta" id="consulta" cols="10" rows="10"></textarea>
+
+
+
+
+
+
+
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
